@@ -134,4 +134,7 @@
     .container{
         max-width: 540px;
         }
+    .cards-inner>.card-cover>.card{
+          width: 100%;
+            }
 }
