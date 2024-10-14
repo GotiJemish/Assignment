@@ -1,140 +1,188 @@
+/* Responsive media query for devices with max-width of 1399px */
 @media (max-width:1399px) {
-    .container{
-        max-width: 1320px;
-        }
+  .container{
+      max-width: 1200px;
+  }
 }
 
-
+/* Responsive media query for devices with max-width of 1199px */
 @media (max-width:1199px) {
-    .container{
-        max-width: 1140px;
-        }
+  .container{
+      max-width: 1140px;
+  }
 
-        .banner-inner>a{
-            font-size: 16px;
-            font-weight: 600;
-          }
-        
-          .cards-inner>.title>.text>h2{
-            font-size: 36px;
-            margin: 0 ;
-              }
-              .cards-inner>.title>.text>p{
-                font-size: 16px;
-                  }
-                  .cards-inner>.title>.buttons>a>i{
-                    height: 36px;
-                    width: 36px;
-                    font-size: 20px;
-                   line-height: 34px;
-                  }
+  /* Adjusting logo size */
+  .header-inner>.logo>img {
+      width: 130px;
+  }
 
+  /* Adjusting padding and font size for nav links */
+  .header-inner>nav>a {
+      padding: 0 22px;
+      font-size: 17px;
+  }
 
-                  article>.body>h4{
-                    font-size: 20px;
-                margin: 36px 0;
-                  }
-
-                  article>.bottom{
-                    height: 60px;
-                  }
-                
-                  article>.bottom>a{
-                    
-                    border-radius: 30px;
-                    padding: 7px 7px 7px 14px;
-                    font-size: 14px;
-                  }
-
-
-
+  /* Adjusting banner button font size */
+  .banner-inner>a {
+      font-size: 16px;
+      font-weight: 600;
+  }
+  /* Adjusting banner font size and button padding */
+  .banner-inner>p {
+    font-size: 17px;
 }
+  /* Adjusting card section title and paragraph sizes */
+  .cards-inner>.title>.text>h2 {
+      font-size: 36px;
+  }
+
+  .cards-inner>.title>.text>p {
+      font-size: 16px;
+  }
+
+  /* Adjusting size of card buttons */
+  .cards-inner>.title>.buttons>a>i {
+      height: 36px;
+      width: 36px;
+      font-size: 20px;
+      line-height: 34px;
+  }
+
+  /* Adjusting card heading and bottom section padding */
+  article>.body>h4 {
+      font-size: 20px;
+      margin: 36px 0;
+  }
+
+  article>.bottom {
+      height: 60px;
+  }
+
+  article>.bottom>a {
+      border-radius: 30px;
+      padding: 7px 7px 7px 14px;
+      font-size: 14px;
+  }
+}
+
+/* Responsive media query for devices with max-width of 991px */
 @media (max-width:991px) {
-    .container{
-        max-width: 960px;
-        }
-        .banner-inner>a{
+  .container {
+      max-width: 960px;
+  }
 
-            padding: 8px 10px;
-         
-            font-size: 16px;
-            font-weight: 600;
-          }
-          .banner-inner>a>i{
-            line-height: 28px;
-            width: 28px;
-            height: 28px;
-            margin-left: 10PX;
-          }
-        .cards-inner>.card-cover>.card{
-        width: 33%;
-          }
+  /* Adjusting logo and nav link sizes */
+  .header-inner>.logo>img {
+      width: 120px;
+  }
+
+  .header-inner>nav>a {
+      padding: 0 18px;
+      font-size: 16px;
+  }
+
+  /* Adjusting banner font size and button padding */
+  .banner-inner>p {
+      font-size: 16px;
+  }
+
+  .banner-inner>a {
+      padding: 8px 10px;
+      font-size: 16px;
+      font-weight: 600;
+  }
+
+  /* Adjusting button icon size */
+  .banner-inner>a>i {
+      line-height: 28px;
+      width: 28px;
+      height: 28px;
+      margin-left: 10px;
+  }
+
+  /* Adjusting card section title font sizes */
+  .cards-inner>.title>.text>h2 {
+      font-size: 36px;
+  }
+
+  .cards-inner>.title>.text>p {
+      font-size: 16px;
+  }
+
+  /* Adjusting card width for smaller screens */
+  .cards-inner>.card-cover>.card {
+      width: 33%;
+  }
 }
 
-
-
+/* Responsive media query for devices with max-width of 767px */
 @media (max-width:767px) {
-    .container{
-        max-width: 720px;
-        }
+  .container {
+      max-width: 720px;
+  }
 
-        .header-inner>.logo>img {
-            width: 100px;
-        }
-        .header-inner>nav>a{
-            
-            padding: 0 12px;
-            font-size: 14PX;
-        }
+  /* Adjusting logo size */
+  .header-inner>.logo>img {
+      width: 100px;
+  }
 
-        .banner-inner>.top{
-        
-            font-size: 72px;
-           
-        }
-        .banner-inner>p{
-            font-size: 14px;
-         
-          }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-          
-          .banner-inner>a{
-            font-size: 14px;
-          }
-          .cards-inner>.title>.text>h2{
-            font-size: 24px;
-              }
-              .cards-inner>.title>.text>p{
-                font-size: 14px;
-                  }
-                  .cards-inner>.title>.buttons>a>i{
-                    margin-left: 0px;
-                    height: 32px;
-                    width: 32px;
-                    font-size: 18px;
-                   line-height: 28px;
-                  }
+  /* Adjusting padding and font size for nav links */
+  .header-inner>nav>a {
+      padding: 0 12px;
+      font-size: 14px;
+  }
 
-                  .cards-inner>.card-cover>.card{
-                width: 50%;
-                  }
+  /* Adjusting banner text and button sizes */
+  .banner-inner>.top>p {
+      line-height: 1;
+  }
 
+  .banner-inner>.top {
+      font-size: 72px;
+  }
+
+  .banner-inner>p {
+      font-size: 14px;
+  }
+
+  .banner-inner>a {
+      font-size: 14px;
+  }
+
+  /* Adjusting card section title and button sizes */
+  .cards-inner>.title>.text>h2 {
+      font-size: 24px;
+  }
+
+  .cards-inner>.title>.text>p {
+      font-size: 14px;
+  }
+
+  .cards-inner>.title>.buttons>a>i {
+      margin-left: 0px;
+      height: 32px;
+      width: 32px;
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  /* Adjusting card width for smaller screens */
+  .cards-inner>.card-cover>.card {
+      width: 50%;
+  }
 
 
 }
+
+/* Responsive media query for devices with max-width of 575px */
 @media (max-width:575px) {
-    .container{
-        max-width: 540px;
-        }
-    .cards-inner>.card-cover>.card{
-          width: 100%;
-            }
+  .container {
+      max-width: 540px;
+  }
+
+  /* Adjusting card width for smaller screens */
+  .cards-inner>.card-cover>.card {
+      width: 100%;
+  }
+
 }
