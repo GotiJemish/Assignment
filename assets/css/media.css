@@ -1,0 +1,137 @@
+@media (max-width:1399px) {
+    .container{
+        max-width: 1320px;
+        }
+}
+
+
+@media (max-width:1199px) {
+    .container{
+        max-width: 1140px;
+        }
+
+        .banner-inner>a{
+            font-size: 16px;
+            font-weight: 600;
+          }
+        
+          .cards-inner>.title>.text>h2{
+            font-size: 36px;
+            margin: 0 ;
+              }
+              .cards-inner>.title>.text>p{
+                font-size: 16px;
+                  }
+                  .cards-inner>.title>.buttons>a>i{
+                    height: 36px;
+                    width: 36px;
+                    font-size: 20px;
+                   line-height: 34px;
+                  }
+
+
+                  article>.body>h4{
+                    font-size: 20px;
+                margin: 36px 0;
+                  }
+
+                  article>.bottom{
+                    height: 60px;
+                  }
+                
+                  article>.bottom>a{
+                    
+                    border-radius: 30px;
+                    padding: 7px 7px 7px 14px;
+                    font-size: 14px;
+                  }
+
+
+
+}
+@media (max-width:991px) {
+    .container{
+        max-width: 960px;
+        }
+        .banner-inner>a{
+
+            padding: 8px 10px;
+         
+            font-size: 16px;
+            font-weight: 600;
+          }
+          .banner-inner>a>i{
+            line-height: 28px;
+            width: 28px;
+            height: 28px;
+            margin-left: 10PX;
+          }
+        .cards-inner>.card-cover>.card{
+        width: 33%;
+          }
+}
+
+
+
+@media (max-width:767px) {
+    .container{
+        max-width: 720px;
+        }
+
+        .header-inner>.logo>img {
+            width: 100px;
+        }
+        .header-inner>nav>a{
+            
+            padding: 0 12px;
+            font-size: 14PX;
+        }
+
+        .banner-inner>.top{
+        
+            font-size: 72px;
+           
+        }
+        .banner-inner>p{
+            font-size: 14px;
+         
+          }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          .banner-inner>a{
+            font-size: 14px;
+          }
+          .cards-inner>.title>.text>h2{
+            font-size: 24px;
+              }
+              .cards-inner>.title>.text>p{
+                font-size: 14px;
+                  }
+                  .cards-inner>.title>.buttons>a>i{
+                    margin-left: 0px;
+                    height: 32px;
+                    width: 32px;
+                    font-size: 18px;
+                   line-height: 28px;
+                  }
+
+                  .cards-inner>.card-cover>.card{
+                width: 50%;
+                  }
+
+
+
+}
+@media (max-width:575px) {
+    .container{
+        max-width: 540px;
+        }
+}
