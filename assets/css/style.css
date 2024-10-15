@@ -49,6 +49,10 @@ header {
 .header-inner>.logo>img {
     width: 150px;
 }
+.header-inner>.logo>i {
+    display: none;
+    color: #ffffff;
+}
 
 .header-inner>.logo {
   width: 30%;  /* Allocating 30% of space for the logo */
@@ -120,6 +124,7 @@ header {
     background-image: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
     color: transparent;
     background-clip: text;
+    -webkit-background-clip: text;
     font-weight: 800;
 }
 
