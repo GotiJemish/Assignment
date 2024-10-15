@@ -24,9 +24,14 @@
 
   /* Adjusting banner button font size */
   .banner-inner>a {
+    padding: 9px 11px;
       font-size: 16px;
-      font-weight: 600;
   }
+  .banner-inner>a>i {
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+}
   /* Adjusting banner font size and button padding */
   .banner-inner>p {
     font-size: 17px;
@@ -86,19 +91,6 @@
       font-size: 16px;
   }
 
-  .banner-inner>a {
-      padding: 8px 10px;
-      font-size: 16px;
-      font-weight: 600;
-  }
-
-  /* Adjusting button icon size */
-  .banner-inner>a>i {
-      line-height: 28px;
-      width: 28px;
-      height: 28px;
-      margin-left: 10px;
-  }
 
   /* Adjusting card section title font sizes */
   .cards-inner>.title>.text>h2 {
@@ -146,8 +138,14 @@
   }
 
   .banner-inner>a {
+    padding: 8px 10px;
       font-size: 14px;
   }
+  .banner-inner>a>i {
+    line-height: 28px;
+    width: 28px;
+    height: 28px;
+}
 
   /* Adjusting card section title and button sizes */
   .cards-inner>.title>.text>h2 {
@@ -179,6 +177,27 @@
   .container {
       max-width: 540px;
   }
+  .header-inner>.logo>img {
+    display: none;
+}
+  .header-inner>.logo>i {
+    display: block;
+}
+.header-inner>.logo:hover>i {
+    color: #00FFA7;
+}
+
+/* Navigation menu layout */
+.header-inner>nav {
+    display: none;
+    }
+
+/* Banner top section text styling */
+.banner-inner>.top {
+    font-size: 56px;
+}
+
+
 
   /* Adjusting card width for smaller screens */
   .cards-inner>.card-cover>.card {
