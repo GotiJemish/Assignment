@@ -1,3 +1,10 @@
+/* Responsive media query for devices with min-width of 1399px */
+@media (min-width:1399px) {
+    .container{
+        max-width: 1340px;
+    }
+  }
+
 /* Responsive media query for devices with max-width of 1399px */
 @media (max-width:1399px) {
   .container{
